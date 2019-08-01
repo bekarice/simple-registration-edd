@@ -1,0 +1,11 @@
+{
+  "name": "bekarice/simple-registration-for-edd",
+  "type": "project",
+  "authors": [
+    {
+      "name": "SkyVerge",
+      "email": "info@skyverge.com"
+    }
+  ],
+  "minimum-stability": "dev"
+}

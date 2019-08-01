@@ -1,0 +1,20 @@
+{
+	"name": "simple-registration-for-edd",
+	"version": "1.0.0",
+	"author": "SkyVerge",
+	"homepage": "http://skyverge.com",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/bekarice/simple-registration-for-edd.git"
+	},
+	"bugs": {
+		"url": "https://github.com/bekarice/simple-registration-for-edd/issues"
+	},
+	"engines": {
+		"node": ">= 0.10.0"
+	},
+	"devDependencies": {
+		"sake": "github:skyverge/sake"
+	},
+	"dependencies": {}
+}
