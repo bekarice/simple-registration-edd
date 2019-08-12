@@ -179,6 +179,10 @@ class Frontend {
 		$user      = get_userdata( $user_id );
 		$user_data = [ 'ID' => $user_id ];
 
+		if ( isset( $_POST['edd_simple_registration_submit'] ) ) {
+			update_user_meta( $user_id, '_created_via_simple_registration', true );
+		}
+
 		if ( isset( $_POST['edd_registration_fname'] ) && ! empty( $_POST['edd_registration_fname'] ) ) {
 
 			$user_data['first_name'] = sanitize_text_field( $_POST['edd_registration_fname'] );
