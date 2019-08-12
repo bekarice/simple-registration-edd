@@ -37,6 +37,9 @@ class Plugin {
 	/** @var Admin instance */
 	protected $admin;
 
+	/** @var Integrations instance */
+	protected $integrations;
+
 	/** @var Frontend instance */
 	protected $frontend;
 
@@ -74,6 +77,10 @@ class Plugin {
 			require_once( $this->get_plugin_path() . '/src/Admin.php' );
 			$this->admin = new Admin();
 		}
+
+		// and play nice with other plugins
+		require_once( $this->get_plugin_path() . '/src/Integrations.php' );
+		$this->integrations = new Integrations();
 	}
 
 
@@ -118,6 +125,18 @@ class Plugin {
 	 */
 	public function get_frontend_instance() {
 		return $this->frontend;
+	}
+
+
+	/**
+	 * Returns the Integrations class instance.
+	 *
+	 * @since 1.0.1-dev.1
+	 *
+	 * @return Integrations
+	 */
+	public function get_integrations_instance() {
+		return $this->integrations;
 	}
 
 
