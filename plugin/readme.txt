@@ -25,6 +25,8 @@ A simple plugin to add a [edd_simple_registration] shortcode to display the regi
 
 == Changelog ==
 
-= 2019.07.31 - version 1.0.0 =
+= 2019.nn.nn - version 1.0.1-dev.1 =
+ * Tweak - Update customer marketing consent in Jilt
 
-* Initial release
+= 2019.07.31 - version 1.0.0 =
+ * Initial release

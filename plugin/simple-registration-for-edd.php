@@ -5,7 +5,7 @@
  * Description: Easily include registration forms via [edd_simple_registration] shortcode on an Easy Digital Downloads site.
  * Author: SkyVerge
  * Author URI: http://www.skyverge.com/
- * Version: 1.0.0
+ * Version: 1.0.1-dev.1
  * Text Domain: simple-registration-for-edd
  *
  * Copyright: (c) 2019 SkyVerge, Inc. (info@skyverge.com)
